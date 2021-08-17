@@ -1,11 +1,14 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
+
 # import <biblioteca>
+# from <biblioteca> import <modulo>
+# import <biblioteca> as <alias>
 
-#Declaración de funciones.
+#Declaración de funciones
 
-#Código principal.
+#Código principal
 if __name__ == '__main__':
      #Instrucciones
 
-# No escribir codigo en este nivel.
+# No escribir codigo en este nivel
