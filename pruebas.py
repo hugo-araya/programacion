@@ -4,12 +4,14 @@
 
 # import <biblioteca>
 import haraya as ha
+import os
 #from haraya import *
 #import haraya
 #Declaración de funciones.
 
 if __name__ == "__main__":
     ha.presentacion()
+    
     numero = input("Ingrese numero: ")
     status, numero = ha.valida_real(numero)
     if status == True:

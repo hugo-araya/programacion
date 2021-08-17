@@ -33,12 +33,12 @@ def valida_real(numero):
                 return False, numero
 
 def presentacion():
-    print("Craedor: Hugo Araya Carrasco")
+    print("Creador: Hugo Araya Carrasco")
     print("------------------------------")
 
 def fin():
     print("Eso es todo")
     print("-------------")
-    
+
 
 
