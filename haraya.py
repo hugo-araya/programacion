@@ -1,6 +1,9 @@
 def valida_entero(numero):
     pass
 
+def valida_mail(correo):
+    pass
+
 def valida_real(numero):
     contar = numero.count('.')
     if contar > 1:
@@ -40,6 +43,7 @@ def presentacion():
     print("------------------------------")
 
 def fin():
+    print('-------------')
     print("Eso es todo")
     print("-------------")
 

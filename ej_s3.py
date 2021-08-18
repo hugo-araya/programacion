@@ -10,6 +10,6 @@
 
 #Código principal
 if __name__ == '__main__':
-     #Instrucciones
+    print(__name__)
 
-# No escribir codigo en este nivel
+
