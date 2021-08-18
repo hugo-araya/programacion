@@ -1,3 +1,6 @@
+def valida_entero(numero):
+    pass
+
 def valida_real(numero):
     contar = numero.count('.')
     if contar > 1:
