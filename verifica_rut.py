@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 # Nombre del autor: Hugo Araya Carrasco
 
