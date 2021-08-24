@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 # Nombre del autor: Hugo Araya Carrasco
 
@@ -11,7 +10,6 @@ def calculo_dv(rut):
     return True
 
 def verifica(rut):
-    print(rut)
     guion = rut.count('-')
     if guion != 1:
         return False
