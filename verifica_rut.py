@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 # Nombre del autor: Hugo Araya Carrasco
 
@@ -16,7 +16,6 @@ def verifica(rut):
         return False
     else:
         parte = rut.split('-')
-        print(parte)
         if len (parte[1]) != 1:
             return False
         else:
@@ -35,7 +34,7 @@ if __name__ == '__main__':
     rut = input("RUT: ")
     ok = verifica(rut)
     if ok == True:
-        print("Rut validado")
+        print("Rut esta validado")
     else:
         print("Rut incorrecto")
 
