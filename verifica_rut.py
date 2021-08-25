@@ -19,7 +19,7 @@ def verifica(rut):
         if len (parte[1]) != 1:
             return False
         else:
-            if parte[1] != 'k':
+            if parte[1].upper() != 'K':
                 if not(parte[1].isdigit()):
                     return False
         # La primera parte
