@@ -1,0 +1,3 @@
+Hugo Araya,Avda. San Miguel 3605,Talca,Computacion
+Juan,La Marina 1212,Santiago,Industrial
+Maria,Providencia 1234,Santiago,Electronica
