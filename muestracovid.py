@@ -13,7 +13,7 @@ def lectura(nombre):
     Y = []
     for elem in casos:
         Y.append(float(elem))
-    return X, Y
+    return XX, Y
 
 def graficar(X, Y):
     plt.plot(X, Y)
