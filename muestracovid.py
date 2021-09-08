@@ -20,7 +20,7 @@ def graficar(X, Y):
     plt.show()
 
 def finalizar(X, Y):
-    print('Son', len(Y), 'Casos' )
+    print('Son', len(Y), 'dias' )
 
 if __name__ == "__main__":
     X, Y = lectura('TotalesNacionalesResumen.csv')
