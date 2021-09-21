@@ -52,8 +52,6 @@ def datos_resumen_por_mes(X, Y):
     Y1.append(suma)
     return X1, Y1
 
-
-
 if __name__ == "__main__":
     X, Y = lectura('TotalesNacionalesResumen.csv')
     X1, Y1 = datos_resumen_por_mes(X, Y)
