@@ -16,7 +16,12 @@ def lectura(nombre):
     return X, Y
 
 def graficar(X, Y):
-    plt.title('Resumen por mes')
+    plt.title('Grafico de datos')
+    plt.plot(X, Y)
+    plt.show()
+
+def graficar_por_mes(X, Y):
+    plt.title('Datos por mes')
     plt.bar(X, Y)
     plt.show()
 
@@ -55,6 +60,7 @@ def datos_resumen_por_mes(X, Y):
 if __name__ == "__main__":
     X, Y = lectura('TotalesNacionalesResumen.csv')
     X1, Y1 = datos_resumen_por_mes(X, Y)
-    graficar(X1, Y1)
+#    graficar(X, Y)
+    graficar_por_mes(X1, Y1)
     finalizar(X, Y)
 #   xr, yr = resumen_por_mes(X, Y)
