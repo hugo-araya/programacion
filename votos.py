@@ -16,17 +16,20 @@ def lectura(nombre):
     return porcentajes
 
 def resultado(porcentajes):
+    salto_linea = '\n'
     sal = open('votos_salida.txt', 'w')
     cand1 = porcentajes[0]
     cand2 = porcentajes[1]
     if cand1 >= 45:
-        sal.write('1'+'\n')
+        sal.write('1'+salto_linea)
     else:
         if cand1 >= 40:
-            if cand1 >= cand2+10:
-                sal.write('1'+'\n')
+            if cand1 - cand2 >= 10:
+                sal.write('1'+salto_linea)
             else:
-                sal.write('2'+'\n')
+                sal.write('2'+salto_linea)
+        else:
+            sal.write('2'+salto_linea)
     sal.close()
 
 
