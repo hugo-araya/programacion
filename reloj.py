@@ -8,6 +8,7 @@ def proceso(nombre):
     else:
         sal.write('N'+'\n')
     sal.close()
+    ent.close()
 
 if __name__ == '__main__':
     proceso('grado.txt')
