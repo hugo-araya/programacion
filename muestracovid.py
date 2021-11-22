@@ -13,7 +13,7 @@ def lectura(nombre):
     Y = []
     for elem in casos:
         Y.append(float(elem))
-    return X, Y
+    return X, Y, XX
 
 def graficar(X, Y):
     plt.title('Grafico de datos')
@@ -39,8 +39,11 @@ def datos_resumen_por_mes(X, Y):
             X1.append('2020-'+str(nro))
         nro = nro + 1
     nro = 1
-    while nro <10:
-        X1.append('2021-0'+str(nro))
+    while nro <11:
+        if nro <10:
+            X1.append('2021-0'+str(nro))
+        else:
+            X1.append('2021-'+str(nro))
         nro = nro + 1
     largo = len(X)
     i = 0
@@ -58,9 +61,9 @@ def datos_resumen_por_mes(X, Y):
     return X1, Y1
 
 if __name__ == "__main__":
-    X, Y = lectura('TotalesNacionalesResumen.csv')
+    X, Y, XX = lectura('ultimo_covid.csv')
+#    graficar(XX, Y)
     X1, Y1 = datos_resumen_por_mes(X, Y)
-#    graficar(X, Y)
     graficar_por_mes(X1, Y1)
     finalizar(X, Y)
 #   xr, yr = resumen_por_mes(X, Y)

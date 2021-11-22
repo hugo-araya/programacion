@@ -14,7 +14,7 @@ def lectura(nombre):
     l1 = l1.split(' ')
     l2 = l2.split(' ')
     l3 = l3.split(' ')
-    ent.close()
+    ent.close()e
     listad = []
     i = 0
     while i < cant:
