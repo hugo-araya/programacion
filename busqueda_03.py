@@ -22,7 +22,7 @@ def busqueda(lista, elem):
     return ok, contador
 
 if __name__ == "__main__":
-    elem = 8
+    elem = 15
     lista = inicializa()
     ok, cont = busqueda(lista, elem)
     respuesta(ok, cont)

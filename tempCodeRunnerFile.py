@@ -1,1 +1,2 @@
-'salida.txt
+
+    ok, cont = busqueda(lista, elem)

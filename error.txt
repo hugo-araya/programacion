@@ -1,0 +1,4 @@
+0 9 False
+4 9 False
+6 9 False
+7 9 False
