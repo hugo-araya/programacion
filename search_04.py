@@ -12,7 +12,7 @@ def lectura_archivo(nombre, cant):
     return lista
 
 def inicializar():
-    lista = lectura_archivo('repetidos_sin.txt', 100)
+    lista = lectura_archivo('repetidos_con.txt', 1000)
     elem = random.randint(1,1000)
     return lista, elem
 
