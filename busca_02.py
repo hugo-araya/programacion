@@ -10,8 +10,7 @@ def lista_aleatoria(largo):
 
 def inicializa():
     lista = lista_aleatoria(1000000)
-#    elem = random.randint(1,1000)
-
+    #elem = random.randint(1,1000)
     #lista = [7,20,5,1,32,44,27,2,9]
     elem = 320
     return lista, elem

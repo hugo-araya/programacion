@@ -1,4 +1,6 @@
-0 9 False
-4 9 False
-6 9 False
-7 9 False
+92732
+0 999 False 98447
+0 499 False 50082
+249 499 False 76234
+374 499 False 86165
+436 499 False 92732
