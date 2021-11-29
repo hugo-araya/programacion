@@ -1,6 +1,6 @@
 def inicializa():
     lista = [7,20,5,1,32,44,27,2,9]
-    elemento = 7
+    elemento = 320
     return lista, elemento
 
 def busqueda(lista, elemento):

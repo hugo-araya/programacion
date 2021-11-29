@@ -4,13 +4,16 @@ def lista_aleatoria(largo):
     l = []
     i = 0
     while i < largo:
-        l.append(random.randint (1,1000))
+        l.append(random.randint (1,1000000))
         i = i + 1
     return l
 
 def inicializa():
-    lista = lista_aleatoria(1000)
-    elem = random.randint(1,1000)
+    lista = lista_aleatoria(1000000)
+#    elem = random.randint(1,1000)
+
+    #lista = [7,20,5,1,32,44,27,2,9]
+    elem = 320
     return lista, elem
 
 def busqueda(lista, elemento):
@@ -34,6 +37,6 @@ def muestra_resultado(resultado,elemento, contador):
 
 if __name__ == '__main__':
     lista, elemento = inicializa()
-    print(lista)
+    # print(lista)
     resultado, contador = busqueda(lista, elemento)
     muestra_resultado(resultado, elemento, contador)

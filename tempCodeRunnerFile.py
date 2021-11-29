@@ -1,2 +1,1 @@
-
-    ok, cont = busqueda(lista, elem)
+lista = lista_aleatoria(1000000)
